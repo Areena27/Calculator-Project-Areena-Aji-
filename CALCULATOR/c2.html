@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="c22.css">
+    <title>CALCULATOR</title>
+</head>
+<body>
+    <h1>CALCULATOR</h1>
+    <div class="container">
+        <div class="calculator">
+            <form>
+                <div class="display">
+                    <input  type="text" id="display" >
+                </div>
+                    <input  class="operator" type="button" value="AC" onclick="clrscrn()">
+                    <input  class="operator" type="button" value="DE" onclick="del() ">
+                    <input  class="operator" type="button" value="."onclick="btnclk(value)">
+                    <input  class="operator" type="button" value="/" onclick="btnclk(value)">
+                <br>
+                    <input  class="button" type="button" value="7" onclick="btnclk(value)">
+                    <input  class="button" type="button" value="8" onclick="btnclk(value)">
+                    <input  class="button" type="button" value="9" onclick="btnclk(value)">
+                    <input  class="operator" type="button" value="*" onclick="btnclk(value)">
+                <br>
+                    <input  class="button" type="button" value="4" onclick="btnclk(value)">
+                    <input  class="button" type="button" value="5" onclick="btnclk(value)">
+                    <input  class="button" type="button" value="6" onclick="btnclk(value)">
+                    <input  class="operator" type="button" value="-" onclick="btnclk(value)">
+                <br>
+                    <input  class="button" type="button" value="1" onclick="btnclk(value)">
+                    <input  class="button" type="button" value="2" onclick="btnclk(value)">
+                    <input  class="button" type="button" value="3" onclick="btnclk(value)">
+                    <input  class="operator" type="button" value="+" onclick="btnclk(value)">
+                <br>
+                    <input class="button" type="button" value="0" onclick="btnclk(value)">
+                    <input class="operator" type="button" value="^2"onclick="sqr(value)" >
+                    <input class="operator" type="button" value="%" onclick="btnclk(value)">
+                    <input class="operator" type="button" value="=" onclick="res()">
+                <br>
+            </form>
+        </div>
+    </div>
+    <script src="c202.js"></script>
+</body>
+</html>
